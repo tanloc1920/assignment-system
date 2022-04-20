@@ -1,0 +1,224 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: auto;
+    margin: 0px auto;
+}
+
+#menu_top{
+    background: #2aa3b3;
+    height: 40px;
+}
+
+#banner{
+    height: 150px;
+    width: auto;
+    margin-bottom: 5px;
+    background: url(./logodhct.png) no-repeat;
+    background-color: #1d92a1;
+}
+
+#main #left{
+    width: 20%;
+    float: left;
+    min-height: 550px;
+}
+
+#main #right{
+    width: 80%;
+    float: left;
+    min-height: 550px;
+}
+
+#footer{
+    background: #2aa3b3;
+    width: auto; 
+    height: 35px;
+    text-align: center;
+    color: #FFF;
+    clear: left;
+    line-height: 35px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li{
+    list-style: none;
+    float: left ;
+}
+
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 30px 0px 30px;
+    border-left: 1px solid #ccc;
+}
+
+#menu_top ul li a.active{
+    background: rgb(119, 161, 64);
+}
+#menu_top ul li a:hover{
+    background:#1d7e8a;
+    color: #FFF;
+}
+#banner img{
+    width: 100px;
+    height: 100px;
+}
+
+#main{
+    margin-top: 10px;
+}
+
+#main #left .menu_left ul{
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    margin-left: 8px;
+
+    list-style: none;
+    text-indent: 30px;
+}
+
+#main #left .menu_left ul li{
+    /* list-style: none; */
+    position: relative;
+    /* height: 40px; */
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+#main #left .menu_left ul li a {
+    display: block;
+    text-decoration: none;
+    /* line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #ccc; */
+    background: url(iconmenu.png) no-repeat 2px;
+    /* text-indent: 30px; */
+}
+#main #left .menu_left ul li a:hover{
+    color: red; 
+}
+/*==Dropdown Menu==*/
+#main #left .menu_left ul li{
+    position: relative;
+}
+#main #left .menu_left .sub-menu {
+    margin: -1px 0px 0px 0px;
+    display: none;
+}
+#main #left .menu_left li:hover .sub-menu{
+    display: block;
+}
+#main #left .menu_left .sub-menu li>a:hover{
+    color: #2aa3b3;
+}
+#main #left .menu_left h3{
+    background: #2aa3b3 ;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 8px;
+}
+
+.btn-login{
+    position: absolute;
+    top: 3px;
+    right: 25px;
+}
+
+#banner #info-nocss{
+    position: relative;
+}
+
+#banner #info-nocss .help {
+    position: absolute;
+    top: 3px;
+    right: 25px;
+    color: #FFF;
+}
+
+#banner #info-nocss .btn-login {
+    position: absolute;
+    color: #FFF;
+    cursor: pointer;
+    margin: 0px 5px;
+    top: 3px;
+    right: 120px;
+    min-width: 150px;
+    text-align: right;
+}
+
+#banner #info-nocss .btn-login:before {
+    content: url(iconlogo.png) ;
+    padding: 3%;
+} 
+
+#banner #info-nocss .help img {
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+}
+
+#banner #desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    color: #FFF;
+}
+/* #banner #destop img{
+
+} */
+#right table,th,td{
+    text-align: start;
+    border-collapse: collapse;
+    /*border: 1px solid black; */
+}
+#right table{
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+}
+#right table tr{
+    height: 40px;
+}
+#right table>thead>tr:nth-child(1)>th:nth-child(1){
+    border-top-left-radius:15px;
+}
+
+#right table>thead>tr:nth-child(1)>th:last-child{
+    border-top-right-radius:15px;
+}
+
+#right table>tbody>tr:last-child>td:nth-child(1){
+    border-bottom-left-radius:15px;
+}
+#right table>tbody>tr:last-child>td:last-child{
+    border-bottom-right-radius:15px;
+}
+#right table>thead{
+    background-color:#2aa3b3;
+    color: #FFF;
+}
+#right table>tbody tr:nth-of-type(odd){
+    background-color: #f6f6f6;
+}
+
+#right table>tbody tr:nth-of-type(even){
+    background-color: #e1e1e1;
+}
+#hellouser{
+    color: yellow;
+}
